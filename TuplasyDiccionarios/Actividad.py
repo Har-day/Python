@@ -94,15 +94,15 @@ Menu = int(input("Ingrese una opción: " ,
 if Menu == 1:    
     agregar(n)    
     
-if Menu == 2:    
+elif Menu == 2:    
     modificar() 
     
-if Menu == 3:    
+elif Menu == 3:    
      eliminar() 
      
-if Menu == 4:    
+elif Menu == 4:    
     calcularNotas()
     
-if Menu == 5:
+elif Menu == 5:
     for i in Estudiantes:
             print(Estudiantes[i])
